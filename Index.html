@@ -1,87 +1,16 @@
-
 <!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LuxeGems Jewellery</title>
-  <meta name="description" content="Premium handcrafted jewellery – rings, necklaces, bracelets. Order online with ease." />  <!-- Google Font -->  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">  <style>
-    :root {
-      --gold: #c9a14a;
-      --dark: #111;
-      --light: #faf7f2;
-    }
+  <title>Elegance Jewellery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #faf7f5; color: #333; }header { background: #fff; padding: 20px 40px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 10; }
+header h1 { font-family: 'Playfair Display', serif; font-size: 28px; }
+nav { display: flex; justify-content: space-between; align-items: center; }
+nav ul { list-style: none; display: flex; gap: 25px; }
+nav a { text-decoration: none; color: #333; font-weight: 500; }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: var(--light);
-      color: #333;
-    }
-
-    /* NAVBAR */
-    header {
-      background: #000;
-      padding: 18px 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      color: var(--gold);
-      font-size: 26px;
-    }
-
-    nav a {
-      color: #fff;
-      margin-left: 25px;
-      text-decoration: none;
-      font-weight: 400;
-    }
-
-    nav a:hover {
-      color: var(--gold);
-    }
-
-    /* HERO */
-    .hero {
-      height: 90vh;
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                  url('https://images.unsplash.com/photo-1600185365483-26d7a4cc7519');
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: #fff;
-    }
-
-    .hero h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 52px;
-      margin-bottom: 15px;
-    }
-
-    .hero p {
-      font-size: 18px;
-      margin-bottom: 25px;
-    }
-
-    .btn {
-      background: var(--gold);
-      color: #000;
-      padding: 12px 28px;
-      text-decoration: none;
-      font-weight: 500;
-      border-radius: 4px;
-    }
-
-    /* PRODUCTS */
-   
+.hero { display: grid; grid-template-columns: 1fr 1fr; padding: 80px 40px; align-items: center; }
+.hero h2 { font-family: 'Playfair Display', serif
